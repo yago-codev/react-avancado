@@ -7,7 +7,7 @@ module.exports = {
   // habilitando teste de cobertura
   collectCoverage: true,
   // de onde o teste de cobertura será coletado
-  collectCovarageFrom: ['src/**/*.ts(x)'],
+  collectCoverageFrom: ['src/**/*.ts(x)'],
   // arquivo onde teremos configurações que serão carregadas antes dos testes iniciarem
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts']
 }
