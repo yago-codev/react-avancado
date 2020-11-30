@@ -1,0 +1,8 @@
+{
+  "presets": [
+    // vai permitir que possamos escrever testes utilizando features recentes do js
+    "next/babel",
+    // vai permitir que os testes sejam escritos com TS
+    "@babel/preset-typescript"
+  ]
+}
